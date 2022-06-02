@@ -1,5 +1,11 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Schedule for 2nd Week 30th May to 5th June
+
+- Play around with Crosetto's abstraction with my own self-defined MSSpectrum class.
+- Study the details about abstraction.
+Will update more in a short while..
+
 ### Schedule for 1st Week 23rd May to 29th May
 
 - Setting up a fresh development environment for the project.
