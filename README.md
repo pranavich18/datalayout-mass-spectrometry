@@ -1,5 +1,11 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+
+### Schedule for 3rd Week 6th to 12th June
+
+- Figuring out how to implement std::sort() in Crosetto's abstraction.
+- Also studying and analysing options regarding the possibility of implementing various STL functions, if we use the abstraction.
+
 ### Schedule for 2nd Week 30th May to 5th June
 
 - Play around with Crosetto's abstraction with my own self-defined MSSpectrum class.
