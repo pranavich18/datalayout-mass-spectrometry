@@ -1,11 +1,13 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
-### Coding Period Begins
 
-### Week1 13th to 20th June
+
+### Week 1 - 13th to 20th June
 
 - Start building the MSSpectrum class with SoA datalayout.
 - Will use the current MSSPectrum class as inspiration and just work on changing the internal implementations of it's respective member functions based on the data layout policy for SoA.
+
+### Coding Period Begins
 
 ### Schedule for 3rd Week 6th to 12th June
 
