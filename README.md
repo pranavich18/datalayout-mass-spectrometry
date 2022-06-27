@@ -1,6 +1,15 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
 
+### Week 3 - 27th June to 2nd July
+
+ - Working on the code breakages because of the getBasePeak() POC.
+
+### Week 2 - 21st to 26th June
+
+- Worked on the code breakages due to initial build.
+- Brainstorming about the idea of introducing new iterators for the changed data layout.
+- Started with a POC for getBasePeak() function and introduced ProxyIterator for the new data layout.
 
 ### Week 1 - 13th to 20th June
 
