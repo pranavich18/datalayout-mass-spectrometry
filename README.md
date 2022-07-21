@@ -1,5 +1,14 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 5 - 10th to 17th July
+
+ - Julianus introduced the abstraction with a little tweak which solves the problem of std::sort() and swap() which was problematic before in case of std::tuple.
+ - Studying the abstraction introduced and thinking how we can introduce and integrate this with the codebase after the changes.
+
+### Week 4 - 3rd to 9th July
+
+ - Brainstorming about solutions that can be used for problems arising in using a normal SoA data layout in case of range-based for loops.
+ - Thinking of switching back to original crosetto's abstraction.
 
 ### Week 3 - 27th June to 2nd July
 
