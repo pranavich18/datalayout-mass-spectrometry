@@ -1,11 +1,17 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 7 - 24th to 31st July
+
+ - Participating in the mid-term evaluation.
+ - After improving the abstraction, tried implementing getBasePeak() using the abstraction in MSSpectrum class.
+ - Successfully implemented getBasePeak().
+ - Started working on incorporating new functions of vector in SoA data layout like insert(), emplace_back(), pop_back(), erase(), etc.
+
 ### Week 6 - 18th to 23rd July
 
  - Starting with the new abstraction.
  - Working on initial build of Peak1DTuple which is in the new abstraction.
  - Working on introducing Iterators and ConstIterators in the abstraction.
- - Participating in the mid-term evaluation.
 
 ### Week 5 - 10th to 17th July
 
