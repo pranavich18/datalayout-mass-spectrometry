@@ -1,5 +1,10 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 8 - 1st to 7th August
+
+ - Completed the inbuilt functions of vector in SoA data layout like emplace_back, pop_back, empty, front, back, reserve, insert, erase.
+ - Tested these functionalities with the abstraction template.
+
 ### Week 7 - 24th to 31st July
 
  - Participating in the mid-term evaluation.
