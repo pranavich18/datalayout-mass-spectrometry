@@ -1,9 +1,15 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 9 - 8th to 14th August
+
+ - Meeting with the mentors on discussing how to tackle the AreaIterator problem related to the newly introduced abstraction template.
+
 ### Week 8 - 1st to 7th August
 
  - Completed the inbuilt functions of vector in SoA data layout like emplace_back, pop_back, empty, front, back, reserve, insert, erase.
  - Tested these functionalities with the abstraction template.
+ - Complications related to AreaIterator arises because of the current abstraction template.
+ - Brainstorming related to the problem.
 
 ### Week 7 - 24th to 31st July
 
