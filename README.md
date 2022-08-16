@@ -1,8 +1,14 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 10 - 15th to 21st August
+
+ - Working on the new design for AreaIterator.
+
 ### Week 9 - 8th to 14th August
 
  - Meeting with the mentors on discussing how to tackle the AreaIterator problem related to the newly introduced abstraction template.
+ - Came up with an idea of re-designing the AreaIterator template.
+ - Changed the inheritance of MSSpectrum class from `vector<Peak1D>` to `BaseContainer<VectorTemplate, Peak1DT<double,double>>`.
 
 ### Week 8 - 1st to 7th August
 
