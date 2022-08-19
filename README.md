@@ -3,6 +3,7 @@
 ### Week 10 - 15th to 21st August
 
  - Working on the new design for AreaIterator.
+ - Successfully implemented AreaIterator with the new changes in both the AreIterator template and our abstraction template.
 
 ### Week 9 - 8th to 14th August
 
