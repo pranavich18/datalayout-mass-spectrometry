@@ -1,5 +1,9 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 11 - 22nd to 28th August
+
+ - Successfully removed and fixed build errors for `EmgGradientDescent.cpp` and started with `swap()` implementation for `BaseContainer` in the abstraction template.
+
 ### Week 10 - 15th to 21st August
 
  - Working on the new design for AreaIterator.
