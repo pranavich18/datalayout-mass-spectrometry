@@ -3,6 +3,7 @@
 ### Week 11 - 22nd to 28th August
 
  - Successfully removed and fixed build errors for `EmgGradientDescent.cpp` and started with `swap()` implementation for `BaseContainer` in the abstraction template.
+ - Fixing build errors for `LinearResampler` file along with the necessary changes in MSSpectrum class.
 
 ### Week 10 - 15th to 21st August
 
