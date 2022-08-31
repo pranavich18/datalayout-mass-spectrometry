@@ -1,9 +1,13 @@
 ## Space- and time-efficient data format for mass spectrometry data (OpenMS) GSOC'22
 
+### Week 12 - 29th to 4th September
+
+ - Fixing build errors that are generated because of the new inheritance from `BaseContainer` in MSExperiment, also making the AreaIterator code template deductive for `const` and `non-const` usage.
+
 ### Week 11 - 22nd to 28th August
 
  - Successfully removed and fixed build errors for `EmgGradientDescent.cpp` and started with `swap()` implementation for `BaseContainer` in the abstraction template.
- - Fixing build errors for `LinearResampler` file along with the necessary changes in MSSpectrum class.
+ - Fixing build errors for `LinearResampler.h` file along with the necessary changes in MSSpectrum class.
 
 ### Week 10 - 15th to 21st August
 
