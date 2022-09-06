@@ -3,15 +3,15 @@
 ### Current State of Progress w.r.t. Project after the coding period
 Currently I have 2 PRs for the project. 
 
-1. [SoA Datalayout] (https://github.com/OpenMS/OpenMS/pull/6190)
+1. [SoA Datalayout](https://github.com/OpenMS/OpenMS/pull/6190)
 
 First one was an attempt to implement normal Structure of Arrays for MSSpectrum without any zero-cost abstraction. It was successfully implemented for a few functions of MSSPectrum like `getBasePeak()` , along with iterators termed as `ProxyIterator`.
 But the problem arose in the implementation of MSSpectrum in other classes in the OpenMS Codebase. In the implementation iterator was just an abstraction of index and the could not return a reference to a `Peak1D` object. Here it was a point where we got stuck with the first approach and also the non-const usage of AreaIterator also started throwing build errors at this point.
 
-2. [SoA Datalayout with Abstraction] (https://github.com/OpenMS/OpenMS/pull/6267)
+2. [SoA Datalayout with Abstraction](https://github.com/OpenMS/OpenMS/pull/6267)
 
 This time one of my mentors came with an idea to implement it with the abstraction template that we were planning to use before. Earlier the swap() function was a bottleneck for this but its implementation was changed using a custom swap for reference_wrappers.
-This PR uses a zero-cost abstraction for a Structure of Array (SoA) data layout for `MSSpectrum`. In this implementation MSSpectrum uses the abstraction datalayout in the form of a `BaseContainer` which stores `Peak1D` as a tupleof values i.e. `Peak1DT<>` with almost all the functionalities of a vector<Peak> like, `insert()`, `empty()`, `erase`, `front`, `back`, `emplace_back`, `push_back`, `pop_back`, etc. all the ones which were being used in the original vector<Peak1D>.
+This PR uses a zero-cost abstraction for a Structure of Array (SoA) data layout for `MSSpectrum`. In this implementation MSSpectrum uses the abstraction datalayout in the form of a `BaseContainer` which stores `Peak1D` as a tupleof values i.e. `Peak1DT<>` with almost all the functionalities of a vector<Peak> like, `insert()` , `empty()` , `erase` , `front` , `back` , `emplace_back` , `push_back` , `pop_back` , etc. all the ones which were being used in the original vector<Peak1D>.
 
 The new data layout support proper iterators which return the reference to the Peak object.
 For peaks we used a tuple of values(position and intensities). The new iterator solves the problem that we faced in the first approach. 
